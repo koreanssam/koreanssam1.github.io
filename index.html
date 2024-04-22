@@ -1,67 +1,758 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koreanssam 프로필</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-        }
-        header, footer {
-            background: #333;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
-        }
-        .section {
-            margin-top: 20px;
-        }
-        h2 {
-            color: #333;
-        }
-        p {
-            font-size: 16px;
-            color: #666;
-            line-height: 1.5;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Koreanssam 프로필</h1>
-    </header>
-    <div class="container">
-        <section id="about">
-            <h2>소개</h2>
-            <p>안녕하세요, 저는 이성원입니다. 국어 교사로 활동 중입니다. AI에 관심을 갖고 있으며, 현재는 창녕 영산중학교에서 근무하고 있습니다.</p>
-        </section>
-        <section id="experience">
-            <h2>경력</h2>
-            <p>경상남도 교육청 - 교사 <br>
-               기간: [근무 시작일]부터 [근무 종료일]까지 <br>
-               주요 업무: [주요 업무 설명]</p>
-            <p>[다음 경력 사항]</p>
-        </section>
-        <section id="education">
-            <h2>교육</h2>
-            <p>[학교명] - [전공] <br>
-               기간: [입학 연도]부터 [졸업 연도]까지</p>
-        </section>
-    </div>
-    <footer>
-        <p>연락처: [이메일 주소] | GitHub: [GitHub 사용자명]</p>
-    </footer>
-</body>
-</html>
+<html lang="ko" style="--scrollbar-width: 17px;"><plasmo-csui></plasmo-csui><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PPXM379"></script><script async="" defer="" src="chrome-extension://pcblbflgdkdfdjpjifeppkljdnaekohj/GdocApi.0c843771.js" type="text/javascript"></script><head><meta charset="utf-8"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
 
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&amp;display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width,initial-scale=1"><script src="https://unpkg.com/share-api-polyfill/dist/share-min.js"></script><style>
+.--brisk-axd {
+  filter: blur(4px);
+  user-select: none;
+}
+</style><script>!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-PPXM379",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")</script><script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script><script type="text/javascript" src="https://cpay.payple.kr/js/cpay.payple.1.0.1.js"></script><script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script><title>T+veloper. Koreanssam</title><meta name="description" content="교발자가 되고 싶은 이성원입니다.👍"><meta name="theme-color" content="#FFE673"><meta property="og:type" content="website"><meta property="og:url" content="https://litt.ly/koreanssam"><meta property="og:title" content="T+veloper. Koreanssam"><meta property="og:description" content="교발자가 되고 싶은 이성원입니다.👍"><meta property="og:image" content="https://cdn.litt.ly/images/WJNZOfy0os1KZuZ6yeBq3FcVeIyntYMf?s=1200x630&amp;m=inside"><meta property="og:site_name" content="T+veloper. Koreanssam"><link rel="icon" href="https://cdn.litt.ly/images/WJNZOfy0os1KZuZ6yeBq3FcVeIyntYMf?s=32x32&amp;noanim=t" sizes="any"><link rel="apple-touch-icon" href="https://cdn.litt.ly/images/WJNZOfy0os1KZuZ6yeBq3FcVeIyntYMf?s=180x180&amp;noanim=t"><link rel="manifest" href="/koreanssam/manifest.json"><link rel="canonical" href="https://litt.ly/koreanssam">    <script>window.data={"theme":{"logo":{"type":"default","image":null},"buttonColor":"#E6FD36","backgroundColor":"#FFE673","backgroundImage":null,"buttonColorLayout":"default","customButtonColor":"#E6FD36","savedButtonColors":{"custom":"#E6FD36","#000000":"#23F670","#CFC9BD":"#E6FD36","#F5F5F8":"#FBF899"},"backgroundImageFilter":"dark","customBackgroundColor":"#FFE673","customBackgroundImage":null},"blocks":[{"key":"FLarZYPZWv7dNdKz9bQ91SYbYcQ8KsBB","url":"https://velog.io/@koreanssam/about","use":true,"form":"largeCard","type":"link","image":null,"title":"🔬  To be T+veloper 블로그 ","folded":true,"emphasized":false,"reservation":{"openAt":null,"closeAt":null}},{"key":"ojGmG2asmizhDIUIUjGhl2bh2W99dguD","url":"https://docs.google.com/forms/d/e/1FAIpQLSfbLUDA_TRkZhVo20dy3WPBOMOrSaHyyWsLg85gR74_2yG_RA/viewform","use":true,"form":"largeCard","type":"link","image":null,"title":"3학년수행","folded":true,"emphasized":false,"reservation":{"openAt":null,"closeAt":null}},{"key":"ZUCm3kU8AmL59427giB5ay8a9qH5x5X7","url":"https://docs.google.com/forms/d/e/1FAIpQLScXzfhvrrFfFswOpQAbjSfxuckWmjJZ8Dc5Dju6WzwgsMU-hg/viewform?usp=sf_link","use":true,"form":"largeCard","type":"link","image":{"url":"/images/a2SRQtC1mWQ0X1H4ON0oKNbNEyD04qf3","mediaId":690619},"title":"'리드' 3개월 무료 체험 신청","folded":true,"emphasized":false,"reservation":{"openAt":null,"closeAt":null}},{"key":"QTvGUHRPEo2iqGwZTCAy6j9Lp3XA8NZe","use":true,"type":"purchase","title":"Gemini API로 AI를 수업에 활용하기","folded":true,"images":[{"url":"/images/kLdeUIn3k6wpeHzuYuYql1LTygMjEhtb","mediaId":675265}],"seller":{"name":"이성원","email":null,"address":null,"contact":"01058907958","postcode":null,"businessName":null,"businessType":"none","addressDetail":null,"businessNumber":null,"mailOrderReportNumber":null,"bankstatementDocumentId":null,"mailOrderReportDocumentId":null,"businessRegistrationDocumentId":null},"bodyType":"simple","products":[{"key":"w3CojI96UZRO0ZBthX0qNaiLlUd1ydLi","files":[{"size":4495730,"fileId":4277,"filename":"Gemini_API로_AI를_수업에_적용하기_완.epub"}],"price":5000,"useStock":true,"stockCount":961,"useRequest":false,"productName":"Gemini API로 AI를 수업에 적용하기","requestGuide":""}],"emphasized":false,"simpleBody":"상품 정보\n\n제목: Gemini API로 AI를 수업에 적용하기 (5시간 걸릴 일을 5분 만에!)\n저자: 이성원(Koreanssam)  \n출판일: 2024년 1월  \n포맷: ePub  \n언어: 한국어  \n페이지 수: 약 20 페이지 (화면 크기에 따라 페이지 수가 달라집니다.)  \n\n내용 소개:  \n이 전자책은 교육 현장에서 인공지능을 활용하는 방법에 대해 다룹니다. 특히 Gemini API를 중심으로 구글 시트와 구글 앱스 스크립트를 활용하여 교육에 AI를 효과적으로 적용하는 다양한 방법을 소개합니다. 교사, 교육 전문가, 그리고 에듀테크에 관심 있는 모든 분들에게 유용한 지침서입니다.\n\n거래 조건\n\n- 가격: 5,000원  \n- 결제 방법: 실시간 계좌이체\n- 배송 방식: 전자책은 구매 후 \b바로 다운로드 가능합니다.\n\n교환 및 환불 규정\n\n- 환불 정책: 전자책의 특성상 구매 후 환불이 불가능합니다. 구매 전 책의 내용과 포맷을 충분히 확인하시기 바랍니다.\n- 교환 정책: 파일에 문제가 있거나 다운로드에 문제가 발생한 경우, 구매 후 7일 이내에 문의해 주시면 교환 혹은 기술적 지원을 제공해 드립니다.\n","reservation":{"openAt":null,"closeAt":null},"deliveryType":"default","detailedBody":"","purchaseType":"file","showingCount":false,"optionsFolded":false,"sellerUpdated":true,"accountUpdated":true,"deliveryAmount":2500,"showingComments":false,"detailedBodyTitle":"","paymentsCount":16,"payments":[]},{"key":"WhCSwiEZGuZPpZF66F44GcmezmgyVIL7","url":"https://docs.google.com/forms/d/e/1FAIpQLSdtIMDKvgdlm30soXvZUIUoD9BPSOSvTsxZE1qHrTnHe2qVtg/viewform?usp=sf_link","use":true,"form":"largeCard","type":"link","image":null,"title":"전자책 구매 후 시트 파일 요청","folded":true,"emphasized":false,"reservation":{"openAt":null,"closeAt":null}},{"key":"05xXUtNYJmrAHK9ylkm5sNdtORsp7z77","url":"https://open.kakao.com/o/gws22Z3f","use":true,"form":"largeCard","type":"link","image":null,"title":"🤩 SCI 단톡방에 참여하기!","folded":true,"emphasized":false,"reservation":{"openAt":null,"closeAt":null}},{"key":"2J1j2bD2Lnxd0g5hReNqg2UgQrIPA266","use":true,"type":"sns","links":[{"key":"aQHsSBin1W5YWsxX2oLdSqUGCdAVkoW7","type":"phone","value":"+8201058907958"},{"key":"F0IR5pXw1zIK0L4iM8dzvzMaY2BMeYR7","type":"youtube","value":"https://youtube.com/@user-tj2io8zq7i?feature=shared"},{"key":"apjcQyg0zbobITxwt3c7ejFx8e3BffPN","type":"email","value":"dl2313637@naver.com"},{"key":"MquF6CGOtlgQHHPcrSWqQ18Boc8goj4S","type":"kakaotalk","value":"http://qr.kakao.com/talk/oJtlP7lKdQccXTrW.PGLY18IjlE-"}],"folded":false,"emphasized":false,"reservation":{"openAt":null,"closeAt":null}},{"key":"t6lOt2NCuXwToCLwXzme4j4HS55I5W30","url":"https://sites.google.com/view/geniuslecture","use":false,"form":"largeCard","type":"link","image":null,"title":"🚀 영재 AI 교육 강의 교안 페이지","folded":true,"emphasized":false,"reservation":{"openAt":null,"closeAt":null}}],"secret":{"body":"","image":null,"enabled":false},"profile":{"use":true,"image":{"url":"/images/WJNZOfy0os1KZuZ6yeBq3FcVeIyntYMf","mediaId":652409},"title":"T+veloper. Koreanssam","folded":true,"layout":"image","subtitle":"교발자가 되고 싶은 이성원입니다.👍","backgroundImage":null,"subscriptionFields":{"email":true,"phone":true}},"certificated":false,"cdnProfileImageUrl":"https://cdn.litt.ly/images/WJNZOfy0os1KZuZ6yeBq3FcVeIyntYMf","alert":false,"alias":"koreanssam"}</script><style>body{background-color: #FFE673}</style><script defer="defer" src="/app/static/js/main.dda667e1.js"></script><link href="/app/static/css/main.f4d9113b.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPXM379" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="root"><div style="--background-color: #FFE673; --background-text-color: #000000; --button-color: #E6FD36; --button-text-color: #000000; --shadow-color: rgba(23, 29, 46, 0.08); --block-background-color: #FFFFFF; --block-text-color: #000000; --block-text-color--unchecked: #8D929F;"><div class="bg-var-background-color"><div class="fixed inset-0 z-[-1] bg-cover bg-top"></div><div class="m-auto flex min-h-screen max-w-[445px] flex-col"><div class="flex h-full flex-1 flex-col space-y-[10px]"><div class="flex flex-col items-center space-y-[20px]"><div class="relative w-full"><div class="px-[20px] absolute top-[20px] z-10 w-full"><div class="top-[20px] flex w-full justify-between"><button class="flex h-[35px] w-[35px] items-center justify-center rounded-full bg-white text-gray4 shadow-[0px_1px_0px_#FFFFFF,_inset_0px_1px_0px_rgba(0,0,0,0.1)] hover:bg-gray3 hover:text-gray4"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square text-[14px]" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M288 32c-17.7 0-32 14.3-32 32s14.3 32 32 32h50.7L169.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L384 141.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V64c0-17.7-14.3-32-32-32H288zM80 64C35.8 64 0 99.8 0 144V400c0 44.2 35.8 80 80 80H336c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v80c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16h80c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"></path></svg></button><button class="group/button relative isolate flex shrink-0 items-center justify-center overflow-hidden px-[14px] active:enabled:scale-[0.98] h-[38px] rounded-full text-13 bg-white disabled:text-gray3/[0.3] w-[86px] font-medium text-black hover:text-gray4 disabled:text-gray4"><div class="flex h-[35px] items-center space-x-[4px]"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell" class="svg-inline--fa fa-bell " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"></path></svg><div class="w-[50px]">구독하기</div></div><div class="absolute inset-0 group-disabled/button:hidden group-hover/button:bg-black/[0.1]"></div></button></div></div><div class="relative flex w-full justify-center"><div class="pt-[65px]"><img class="mask-image mask-size-cover h-[103px] w-[103px] object-cover" src="https://cdn.litt.ly/images/WJNZOfy0os1KZuZ6yeBq3FcVeIyntYMf?s=180x180&amp;f=webp" srcset="https://cdn.litt.ly/images/WJNZOfy0os1KZuZ6yeBq3FcVeIyntYMf?s=180x180&amp;f=webp 1x, https://cdn.litt.ly/images/WJNZOfy0os1KZuZ6yeBq3FcVeIyntYMf?s=360x360&amp;f=webp 2x" style="--tw-mask-image: url(/app/static/media/profile-mask.84d72c552f05c4eb841d.png);"></div></div></div><div class="flex flex-col items-center space-y-[11px] px-[20px] text-var-background-text-color"><div class="break-all"><h1 class="text-20 font-semibold leading-[32px] inline">T+veloper. Koreanssam</h1></div><div class="break-all"><h2 class="inline whitespace-pre-wrap break-all text-center text-16 font-semibold">교발자가 되고 싶은 이성원입니다.👍</h2></div></div></div><div class="pt-[10px]"><div class="flex flex-col"><div class="flex flex-col space-y-[16px] px-[20px] text-var-block-text-color"><div><div class="view-button rounded-[10px] shadow-view-block"><a class="cursor-pointer overflow-hidden rounded-[10px] bg-var-block-background-color flex items-center justify-center p-[15px]" href="https://velog.io/@koreanssam/about" rel="noopener" style="mask-image: -webkit-radial-gradient(center, white, black);"><div class="view-button-bg rounded-[10px]"></div><div class="view-button-active"></div><div class="relative"><h2 class="whitespace-pre-wrap break-all text-center text-16 font-medium">🔬  To be T+veloper 블로그 </h2></div></a></div></div><div><div class="view-button rounded-[10px] shadow-view-block"><a class="cursor-pointer overflow-hidden rounded-[10px] bg-var-block-background-color flex items-center justify-center p-[15px]" href="https://docs.google.com/forms/d/e/1FAIpQLSfbLUDA_TRkZhVo20dy3WPBOMOrSaHyyWsLg85gR74_2yG_RA/viewform" rel="noopener" style="mask-image: -webkit-radial-gradient(center, white, black);"><div class="view-button-bg rounded-[10px]"></div><div class="view-button-active"></div><div class="relative"><h2 class="whitespace-pre-wrap break-all text-center text-16 font-medium">3학년수행</h2></div></a></div></div><div><div class="view-button rounded-[10px] shadow-view-block"><a class="cursor-pointer overflow-hidden rounded-[10px] bg-var-block-background-color flex flex-col" href="https://docs.google.com/forms/d/e/1FAIpQLScXzfhvrrFfFswOpQAbjSfxuckWmjJZ8Dc5Dju6WzwgsMU-hg/viewform?usp=sf_link" rel="noopener" style="mask-image: -webkit-radial-gradient(center, white, black);"><img src="https://cdn.litt.ly/images/a2SRQtC1mWQ0X1H4ON0oKNbNEyD04qf3?s=600x100&amp;m=outside&amp;f=webp" srcset="https://cdn.litt.ly/images/a2SRQtC1mWQ0X1H4ON0oKNbNEyD04qf3?s=600x100&amp;m=outside&amp;f=webp 1x, https://cdn.litt.ly/images/a2SRQtC1mWQ0X1H4ON0oKNbNEyD04qf3?s=1200x200&amp;m=outside&amp;f=webp 2x"><div class="relative"><div class="view-button-bg rounded-b-[10px]"></div><div class="view-button-active"></div><div class="relative"><div class="flex items-center justify-center p-[15px]"><h2 class="whitespace-pre-wrap break-all text-center text-16 font-medium">'리드' 3개월 무료 체험 신청</h2></div></div></div></a></div></div><div><div class="flex flex-col rounded-[10px] bg-var-block-background-color shadow-view-block"><div class="relative flex flex-col"><div class="relative isolate overflow-hidden rounded-[10px] rounded-b-none"><div class="carousel-root"><div class="carousel carousel-slider" style="width: 100%;"><button type="button" aria-label="previous slide / item" class="control-arrow control-prev control-disabled"></button><div class="slider-wrapper axis-horizontal" style="height: 646px;"><ul class="slider animated" style="transform: translate3d(0px, 0px, 0px); transition-duration: 350ms;"><li class="slide selected previous"><div class="flex min-h-[56px] cursor-pointer flex-col items-center justify-center"><img class="h-full w-full object-cover" src="https://cdn.litt.ly/images/kLdeUIn3k6wpeHzuYuYql1LTygMjEhtb?f=webp"></div></li></ul></div><button type="button" aria-label="next slide / item" class="control-arrow control-next control-disabled"></button></div></div></div></div><div class="flex flex-col space-y-[10px] p-[20px]"><div class="flex flex-col text-18 font-semibold">Gemini API로 AI를 수업에 활용하기<div class="flex items-center space-x-[5px]"><div class="flex items-center space-x-[2px]"><div class="text-20">5,000</div><div class="text-16 font-medium">원</div></div><div class="text-13 font-medium text-var-block-text-color"></div></div></div><button class="group/button relative isolate flex shrink-0 items-center justify-center overflow-hidden px-[14px] active:enabled:scale-[0.98] h-[46px] rounded-[5px] text-16 font-medium bg-var-button-color text-var-button-text-color disabled:bg-gray4 disabled:text-white/[0.3]">구매하기<div class="absolute inset-0 group-disabled/button:hidden group-hover/button:bg-white/[0.2]"></div></button></div></div></div><div><div class="view-button rounded-[10px] shadow-view-block"><a class="cursor-pointer overflow-hidden rounded-[10px] bg-var-block-background-color flex items-center justify-center p-[15px]" href="https://docs.google.com/forms/d/e/1FAIpQLSdtIMDKvgdlm30soXvZUIUoD9BPSOSvTsxZE1qHrTnHe2qVtg/viewform?usp=sf_link" rel="noopener" style="mask-image: -webkit-radial-gradient(center, white, black);"><div class="view-button-bg rounded-[10px]"></div><div class="view-button-active"></div><div class="relative"><h2 class="whitespace-pre-wrap break-all text-center text-16 font-medium">전자책 구매 후 시트 파일 요청</h2></div></a></div></div><div><div class="view-button rounded-[10px] shadow-view-block"><a class="cursor-pointer overflow-hidden rounded-[10px] bg-var-block-background-color flex items-center justify-center p-[15px]" href="https://open.kakao.com/o/gws22Z3f" rel="noopener" style="mask-image: -webkit-radial-gradient(center, white, black);"><div class="view-button-bg rounded-[10px]"></div><div class="view-button-active"></div><div class="relative"><h2 class="whitespace-pre-wrap break-all text-center text-16 font-medium">🤩 SCI 단톡방에 참여하기!</h2></div></a></div></div><div><div class="flex flex-col items-center space-y-[25px] py-[20px]"><div class="flex space-x-[25px]"><a class="cursor-pointer text-var-background-text-color" href="tel:+8201058907958" target="_self" rel="noopener"><div style="transform: none;"><div class="flex h-[25px] w-[25px] shrink-0 items-center justify-center"><svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.4864 12.7192L13.5489 11.0317C13.3807 10.96 13.1937 10.9449 13.0162 10.9887C12.8386 11.0324 12.6801 11.1327 12.5645 11.2743L10.8207 13.4048C8.08409 12.1145 5.88171 9.91208 4.59141 7.17542L6.72187 5.43167C6.86379 5.31625 6.96424 5.15773 7.00801 4.98011C7.05178 4.80249 7.03649 4.61545 6.96445 4.4473L5.27695 0.509798C5.19789 0.328536 5.05806 0.180541 4.88157 0.0913331C4.70508 0.00212525 4.50299 -0.0227041 4.31016 0.0211265L0.653906 0.864877C0.467989 0.907809 0.302114 1.01249 0.183352 1.16184C0.0645909 1.31118 -4.28277e-05 1.49637 2.12914e-08 1.68718C2.12914e-08 10.7048 7.30898 17.9997 16.3125 17.9997C16.5034 17.9998 16.6886 17.9352 16.8381 17.8164C16.9875 17.6977 17.0922 17.5318 17.1352 17.3458L17.9789 13.6895C18.0225 13.4958 17.9971 13.2929 17.9072 13.1158C17.8173 12.9387 17.6685 12.7984 17.4864 12.7192V12.7192Z" fill="currentColor"></path></svg></div></div></a><a class="cursor-pointer text-var-background-text-color" href="https://youtube.com/@user-tj2io8zq7i?feature=shared" target="_self" rel="noopener"><div style="transform: none;"><div class="flex h-[25px] w-[25px] shrink-0 items-center justify-center"><svg width="22" height="16" viewBox="0 0 22 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M21.5403 2.50346C21.2873 1.51804 20.5418 0.741958 19.5953 0.478583C17.8796 0 11 0 11 0C11 0 4.12044 0 2.40474 0.478583C1.45821 0.742 0.71273 1.51804 0.459711 2.50346C0 4.28958 0 8.01617 0 8.01617C0 8.01617 0 11.7428 0.459711 13.5289C0.71273 14.5143 1.45821 15.258 2.40474 15.5214C4.12044 16 11 16 11 16C11 16 17.8796 16 19.5953 15.5214C20.5418 15.258 21.2873 14.5143 21.5403 13.5289C22 11.7428 22 8.01617 22 8.01617C22 8.01617 22 4.28958 21.5403 2.50346ZM8.74998 11.3996V4.63271L14.5 8.01625L8.74998 11.3996Z" fill="currentColor"></path></svg></div></div></a><a class="cursor-pointer text-var-background-text-color" href="mailto:dl2313637@naver.com" target="_self" rel="noopener"><div style="transform: none;"><div class="flex h-[25px] w-[25px] shrink-0 items-center justify-center"><svg width="25" height="25" viewBox="0 0 25 25" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_16012_42210)"><path d="M8.59375 10.547H16.4062C16.8379 10.547 17.1875 10.1974 17.1875 9.76578V8.98453C17.1875 8.55289 16.8379 8.20328 16.4062 8.20328H8.59375C8.16211 8.20328 7.8125 8.55289 7.8125 8.98453V9.76578C7.8125 10.1974 8.16211 10.547 8.59375 10.547ZM7.8125 14.4533C7.8125 14.8849 8.16211 15.2345 8.59375 15.2345H16.4062C16.8379 15.2345 17.1875 14.8849 17.1875 14.4533V13.672C17.1875 13.2404 16.8379 12.8908 16.4062 12.8908H8.59375C8.16211 12.8908 7.8125 13.2404 7.8125 13.672V14.4533ZM12.5 20.3678C11.6982 20.3678 10.8965 20.1208 10.2119 19.6261L0 12.2492V22.6564C0 23.9508 1.04932 25.0002 2.34375 25.0002H22.6562C23.9507 25.0002 25 23.9508 25 22.6564V12.2492L14.7881 19.6261C14.1035 20.1203 13.3018 20.3678 12.5 20.3678ZM24.1021 7.95669C23.6699 7.61783 23.2603 7.29898 22.6562 6.84292V4.68765C22.6562 3.39322 21.6069 2.3439 20.3125 2.3439H16.5259C16.3774 2.23648 16.2393 2.13589 16.0845 2.02359C15.2637 1.42447 13.6328 -0.0169392 12.5 0.000150653C11.3672 -0.0169392 9.73682 1.42447 8.91553 2.02359C8.76074 2.13589 8.62256 2.23648 8.47412 2.3439H4.6875C3.39307 2.3439 2.34375 3.39322 2.34375 4.68765V6.84292C1.73975 7.29849 1.33008 7.61783 0.897949 7.95669C0.618241 8.1759 0.392048 8.45584 0.236481 8.77535C0.0809144 9.09486 4.81351e-05 9.44556 0 9.80093L0 10.321L4.6875 13.7072V4.68765H20.3125V13.7072L25 10.321V9.80093C25 9.08121 24.6689 8.40103 24.1021 7.95669Z" fill="currentColor"></path></g><defs><clipPath id="clip0_16012_42210"><rect width="25" height="25" fill="white"></rect></clipPath></defs></svg></div></div></a><a class="cursor-pointer text-var-background-text-color" href="http://qr.kakao.com/talk/oJtlP7lKdQccXTrW.PGLY18IjlE-" target="_self" rel="noopener"><div style="transform: none;"><div class="flex h-[25px] w-[25px] shrink-0 items-center justify-center"><svg width="23" height="20" viewBox="0 0 23 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M11.5 0C5.14762 0 0 3.8515 0 8.60522C0 11.6979 2.18115 14.4112 5.45522 15.9266C5.2152 16.7759 4.58369 19.006 4.45785 19.4825C4.30172 20.0737 4.68622 20.0671 4.94022 19.9083C5.1383 19.7825 8.09078 17.881 9.36545 17.0626C10.0575 17.1597 10.7706 17.2104 11.5 17.2104C17.8501 17.2104 23 13.3589 23 8.60522C22.9977 3.8515 17.8501 0 11.5 0ZM5.89098 10.8244C5.89331 11.3472 4.66292 11.3405 4.66059 10.8177C4.66758 10.1008 4.66059 7.02359 4.66059 7.02359H3.4768C2.78237 7.02359 2.78004 5.94932 3.47447 5.94932C3.47447 5.94932 6.24519 5.97138 7.07477 5.97138C7.81115 5.97138 7.80882 7.06771 7.07477 7.06771C6.29412 7.06771 5.89797 7.0655 5.89797 7.0655L5.89098 10.8244ZM10.4164 10.9545C10.1298 10.2354 10.2044 10.2045 10.2044 10.2045H8.03951L7.80182 10.9876C7.55015 11.5369 6.45957 11.0891 6.71358 10.5398C7.06312 9.77876 8.11408 6.91109 8.40537 6.30447C8.52188 6.06402 8.7922 5.96917 9.0695 5.96917C9.40507 5.96917 9.75228 6.11035 9.84782 6.30447C10.0575 6.728 11.2087 9.7192 11.5396 10.5508C11.7726 11.1332 10.6494 11.5369 10.4164 10.9545ZM14.8067 11.2192C14.2497 11.2192 12.996 11.2258 12.4298 11.2258C11.8635 11.2258 11.9591 10.6016 11.9591 10.6016C11.9591 10.6016 11.9567 7.46036 11.9544 6.48535C11.9544 6.14344 12.2737 5.97138 12.5952 5.97138C12.9145 5.97138 13.2337 6.14123 13.2361 6.48314C13.2384 7.18903 13.2337 10.0942 13.2337 10.0942C13.2337 10.0942 14.2497 10.1008 14.8044 10.1008C15.3613 10.0986 15.3636 11.2192 14.8067 11.2192ZM18.6307 11.131L17.0694 9.11479L16.7129 9.38611C16.7129 9.38611 16.7129 10.381 16.7129 10.906C16.7129 11.3582 15.4988 11.3582 15.4988 10.906C15.4988 10.6192 15.5244 6.75447 15.5128 6.32873C15.5058 6.0927 15.825 5.97138 16.1373 5.97138C16.4286 5.97138 16.7152 6.07726 16.7199 6.29785C16.7362 6.878 16.7199 7.9258 16.7199 7.9258C16.7199 7.9258 18.4816 6.25594 18.7332 6.01991C18.9919 5.77505 19.7935 6.5405 19.5349 6.78315C19.0921 7.20006 17.9666 8.35154 17.9666 8.35154L19.6234 10.4185C19.938 10.8133 18.9453 11.5258 18.6307 11.131Z" fill="currentColor"></path><path d="M8.42871 9.17318H9.80126L9.14178 7.21875L8.42871 9.17318Z" fill="currentColor"></path></svg></div></div></a></div></div></div></div></div></div><div class="relative flex flex-1 items-end justify-center pt-[50px] pb-[50px] dt:pb-[73px]"><a target="_blank" rel="noopener noreferrer" href="https://litt.ly/start_now?utm_source=mainpage&amp;utm_medium=referral&amp;utm_campaign=made+on+littly&amp;utm_content=koreanssam"><div class="flex h-[54px] items-center justify-center space-x-[10px] rounded-full bg-white/[0.65] px-[25px] py-[15px] hover:bg-white/[0.9]"><img class="h-[20px] w-[23px]" src="data:image/png;base64,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"><div class="text-16 font-medium tracking-normal">Create your littly</div></div></a></div></div></div></div></div></div><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div><div aria-hidden="true" role="presentation" style="width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;"></div><div aria-hidden="true" role="presentation" style="width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;"></div><div aria-hidden="true" role="presentation" style="width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;"></div><div aria-hidden="true" role="presentation" style="width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;"></div><deepl-input-controller></deepl-input-controller><div style="display: none;"></div></body></html>
